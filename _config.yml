@@ -1,3 +1,4 @@
 theme: jekyll-theme-slate
 title: Andrew Rocchi's Personal Site
 description: A site to keep track of projects and put them into a nicely presented format in one centralized place.
+permalink: /blog/:year/:month/:day/:title
