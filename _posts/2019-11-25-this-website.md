@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Made this website"
+title: "This website"
 date: 2019-11-25
 ---
 
