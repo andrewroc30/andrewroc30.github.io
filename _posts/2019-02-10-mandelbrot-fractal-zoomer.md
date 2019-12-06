@@ -37,4 +37,6 @@ Third, I tried/am trying to use the GPU as a speedup.  The calculations for obta
 
 Fourth, I will try increasing the iterations as needed when zooming into the image.  Since we will need higher iterations as we zoom further in, the intial images created will not need as many iterations as the later images.  So, by increasing the iterations as we zoom, the initial images can be created much faster.  Unfortunately, there doesn't seem to be any easy way to do this, like a formula.  However, it should be possible to estimate based upon the number of same-colored points (points that escape in the same iteration).  This isn't a huge priority, since a lot of the high precision calculations at the higher zooms are what the greater portion of the runtime are dedicated to, so reducing the iterations for the initial images certainly helps with the overall runtime, but will be less and less effective as we get further into the set.
 
+## Code
 
+[github.com/andrewroc30/Mandelbrot-Fractal-Zoomer](https://github.com/andrewroc30/Mandelbrot-Fractal-Zoomer)
